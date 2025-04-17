@@ -5,29 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Citizens Against Corruption</title>
   <style>
-    *{box-sizing: border-box;}
+    *{box-sizing: border-box;margin: 0;}
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #f9f9f9;
       color: #222;
       padding: 0px;
       line-height: 1.6;font-size: 18px;
-    }
+      /* background-color: #222; */}
+      a,body,marquee{
+  background: linear-gradient(132deg, #000000,#00ff00, #0000ff,#e60073,#ff0000,#ffffff);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 15s ease infinite;}
     header {
       text-align: center;
       margin-bottom: 40px;
     }
     h1 {
-      color: #d32f2f;
+      /* color: #000; */
       font-size: 2.8rem;
     }
     h2 {
       color: #444;
-      margin-top: 300px;
+      margin-top: 60vh;margin-bottom: 0;
     }
+    a{text-decoration: none;color: white;padding: 0 10px;border-bottom:solid 4px white;}
     section {
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 720px;
+      margin: 0 auto;padding: 10px;
+      float: left;height: 96vh;
+      overflow-y: scroll;
+      background-color: white;
+      box-shadow: 0 0 10px #666;
     }
     .quote {
       font-style: italic;font-size: 30px;
@@ -40,7 +49,7 @@
       text-align: center;
       margin-top: 60px;
       font-size: 0.9rem;
-      color: #777;
+      color: #fff;
     }
     form {
       background: #fff;max-width: 400px;
@@ -89,25 +98,44 @@
     .timeline-entry p {
       margin: 5px 0 0 0;
     }
+
+    @keyframes BackgroundGradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
   </style>
 </head>
-<body>
+<body style="display: flex;">
   <!-- <video autoplay style="position: fixed;height: 400px;left:0"></video> -->
 
 
+  <section style="background: darkslategrey;color:white; overflow:hidden;padding: 5rem 1rem;transform: perspective(2000px) rotateY(30deg);">
+    
+    <h1>AI Agents Against Corruption v2025</h1>
+    <b><marquee SCROLLAMOUNT="10">IF YOU ASK FOR BRIBE, WE WILL STING YOU!</marquee></b>
     <div class="quote" style="text-align: center;">
       <b>GET PAID TO STING!</b>   Currently recruiting representatives in 19000+ pincodes
     </div>
-
-  <header>
-    <h1>Citizens Against Corruption</h1>
+    
     <!-- <p><strong>Yatra to Uncover Stories of Bribery, Powerlessness, and Courage</strong></p> -->
-  </header>
-  
-  <section>
-    <b><marquee style="background: khaki;width: 49%;">IF YOU ASK FOR BRIBE, WE WILL STING YOU!</marquee></b>
-    <b><marquee style="background: khaki;width: 49%;">IF YOU ASK FOR BRIBE, WE WILL STING YOU!</marquee></b>
-    <h2>🌟 Steps to Repel Corruption</h2>
+    
+    <h3>💳 Support the Journey</h3>
+    <p>If you believe in this mission and want to support logistics, travel, and documentation, you can contribute:</p>
+    <ul>
+      <li>UPI: <strong>7019492748@kotak</strong></li>
+      <li>PayPal: <strong>paypal.me/sasban9</strong></li>
+      <li><a href="donations.html">Daily Donations List</a> (Updated daily)</li>
+    </ul><br>
+    <b><marquee SCROLLDELAY="10" style="background: black;">IF YOU ASK FOR BRIBE, WE WILL STING YOU!</marquee></b>
+  <footer>
+    © 2025 | A citizen-led mission for a corruption-free India
+  </footer>
+  </section>
+
+  <section style="padding: 0 2rem;">
+    <img src="https://www.globaltechcouncil.org/wp-content/uploads/2019/04/Is-Artificial-Intelligence-the-future-tool-for-anti-corruption.jpg" width="100%" alt="">
+    <h2 style="margin-top: 20px;">🌟 AI Agents Against Corruption</h2>
     <div class="timeline">
         <div class="timeline-entry">
           <h4>Step 1</h4>
@@ -125,8 +153,11 @@
           <h4>Step 4</h4>
           <p>Pay citizens to run sting operations on officials accepting "chai-paani" in 19000+ pincodes</p>
         </div>
+        <div class="timeline-entry">
+          <h4>Step 5</h4>
+          <p>Create fear psychosis in corrupt people of being exposed at any time</p>
+        </div>
     </div>
-
     <h2>📌 The Mission</h2>
     <p>
       I am setting out on an indefinite journey across India — every state, every district, every village and town — to collect and highlight real stories of everyday corruption.
@@ -197,19 +228,7 @@
       <button type="submit">Submit Your Story</button>
     </form>
 
-    <h2>🗺️ Bribery Hotspot Map</h2>
-    <b>PHASE 1: Sabarmati Ashram, Ahmedabad ➡️ Jaipur ➡️ Delhi ➡️ Chandigarh ➡️ Lucknow ➡️ Patna ➡️ Ranchi ➡️ Kolkata ➡️ Bhubaneswar ➡️ Raipur ➡️ Nagpur<hr> 
-      PHASE 2: Vizag ➡️ Bangalore ➡️ Chennai ➡️ Thiruvananthapuram ➡️ Mangalore ➡️ Mumbai ➡️ Surat ➡️ Vadodara ➡️ New Delhi (Jantar Mantar)</b>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1GZahsi7DBLIPg24BFBLcr-PQNl72r5U&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
-    <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1m7VCxe1Jz8vOeZFVoo6OeSyFoG8&hl=en" allowfullscreen></iframe> -->
 
-    <h2>💳 Support the Journey</h2>
-    <p>If you believe in this mission and want to support logistics, travel, and documentation, you can contribute:</p>
-    <ul>
-      <li>UPI: <strong>7019492748@kotak</strong></li>
-      <li>PayPal: <strong>paypal.me/sasban9</strong></li>
-      <li><a href="donations.html">Daily Donations List</a></li>
-    </ul>
 
       <h2>🌟 Timeline of Anti-Corruption Heroes</h2>
       <div class="timeline">
@@ -243,9 +262,19 @@
       </div>
     </div>
   </section>
-<a href="desktop.html">Desktop Version</a>
-  <footer>
-    © 2025 | A citizen-led mission for a corruption-free India
-  </footer>
+
+
+  <section style="transform: perspective(2000px) rotateY(-30deg);overflow: hidden;background-color: darkslategrey;color: white;">
+    <h3>🗺️ BribeTube Hotspot Map</h3>
+    <iframe style="" src="https://www.google.com/maps/d/embed?mid=1GZahsi7DBLIPg24BFBLcr-PQNl72r5U&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+    <b><br><br>
+      PHASE 1: Sabarmati Ashram, Ahmedabad ➡️ Jaipur ➡️ Delhi ➡️ Chandigarh ➡️ Lucknow ➡️ Patna ➡️ Ranchi ➡️ Kolkata ➡️ Bhubaneswar ➡️ Raipur ➡️ Nagpur<hr> <br>
+      PHASE 2: Patna ➡️ Darjeeling ➡️ Guwahati ➡️ Dibrugarh ➡️ Kohima ➡️ Imphal ➡️ Aizawl ➡️ Agartala ➡️ Shillong<hr> <br>
+      PHASE 3: Hyderabad ➡️ Vizag ➡️ Chennai ➡️ Thiruvananthapuram ➡️ Mangalore ➡️ Mumbai ➡️ Surat ➡️ Vadodara ➡️ Indore ➡️ Bhopal ➡️ New Delhi (Jantar Mantar)
+    </b>
+    <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1m7VCxe1Jz8vOeZFVoo6OeSyFoG8&hl=en" allowfullscreen></iframe> -->
+  </section>
+  
+
 </body>
 </html>
